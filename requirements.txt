@@ -1,0 +1,26 @@
+# Core data
+pandas==2.2.2
+numpy==1.26.4
+
+# Database
+psycopg2-binary==2.9.12
+SQLAlchemy==2.0.34
+
+# NBA data extraction
+nba_api==1.11.4
+
+# Machine learning
+scikit-learn==1.5.1
+xgboost==3.2.0
+scipy==1.13.1
+
+# Visualization
+matplotlib==3.9.2
+
+# Utilities
+requests==2.33.1
+python-dotenv==0.21.0
+
+# Polymarket integration (optional)
+# eth-account==0.13.7
+# py_clob_client_v2==1.0.0  # pip install git+https://github.com/Polymarket/py-clob-client-v2
