@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Raw data, intermediate ETL outputs, and model result CSVs
+# (data lives in PostgreSQL; CSVs are ephemeral pipeline artifacts)
+*.csv
+!polymarket/mappings.csv
+
+# Logs
+*.log
+
+# Word documents (reports kept separately)
+*.docx
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
